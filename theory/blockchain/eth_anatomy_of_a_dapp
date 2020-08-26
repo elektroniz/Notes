@@ -1,0 +1,67 @@
+    ____                        
+   / __ \____ _____  ____  _____
+  / / / / __ `/ __ \/ __ \/ ___/
+ / /_/ / /_/ / /_/ / /_/ (__  ) 
+/_____/\__,_/ .___/ .___/____/  
+           /_/   /_/            
+
+# Dapp Client Side: A Web Application
+
+Just a normal web application, generally as a web application
+contains HTML and JavaScript. The web user interface doesn't
+contain any server-side scripts and communicates directly
+with a specific server of the network throught a client-side
+JavaScript library called Web3.js.
+
+# Dapp Server Side: A P2P Network
+
+The server side of a decentralized application is a P2P network of
+servers that run the same code and have identical copies of a
+blockchain database.  The key characteristic of this network topology
+is that it uses no central coordination, but instead uses direct
+communication between each node and a number of the other nodes,
+known as peer nodes or simply peers.
+
+# The Ethereum Network
+
+Various P2P networks supporting blockchain platforms exist.  The
+most well-know one is the Bitcoin network.  But in Ethereum network,
+whose participant nodes host a blockchain database and a piece of
+software called a node client, which allows a node to communicate
+with others nodes.
+Because all nodes are equivalent to each other, ypu have no clear-cut
+concept of client and server. That's why the software element of an
+Ethereum node is called a client.
+
+Ethereum clients expose a common client interface and communicate
+with each other throught a P2P protocol called Wire.  That protocol
+enforces a standard way of sending data throughout the network,
+specifically a transaction, such as a submitted vote, and a block,
+such as a set of votes consolidated in the blockchain database.
+Some implementations of ethereum clients exists, some written in
+C++, others in Go, and so on, but all uses Wire as standard protcol.
+
+The Power of Ethereum is that not only you can execute transactions,
+but also to execute application code hosted on the blockchain
+database.
+
+From this point of view blockchain that have this feature, are
+called programmable blockchains.
+
+# The Role Of Network Nodes
+
+Full Node -> Can process transactions passively: they can read from
+the blockchain database, but they can't create new blockchain blocks.
+But they can append blocks received from peer nodes to the local
+blockchain.  They do execute transactions, but only to verify the
+correctness of the blockchain blocks they receive from peer nodes.
+
+Mining Node -> Some of the nodes are configured to process transactions
+actively: They group and store transactions in new blockchain blocks.
+They're rewarded in Ether, the cryptocurrency supported in the
+Ethereum platform, for performing such as computationally intensive
+and energy demanding work. They then propragate these new blocks
+to the rest of the P2P network. Such nodes are called mining nodes
+because the process of consolidating a new block to the blockchain
+and beign rewarded for it in cryptocurrency tokens is known as
+mining.

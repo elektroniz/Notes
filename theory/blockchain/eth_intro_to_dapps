@@ -1,0 +1,74 @@
+    ____                        
+   / __ \____ _____  ____  _____
+  / / / / __ `/ __ \/ __ \/ ___/
+ / /_/ / /_/ / /_/ / /_/ (__  ) 
+/_____/\__,_/ .___/ .___/____/  
+           /_/   /_/            
+
+
+# Dapps Purposes
+
+Decentralized Applications are part of a new wave of web applications
+meant to increase transparency around commercial transactions,
+governamental process, supply chains, and all those systems that
+currently require manual trust between customer and supplier, user
+and provider.
+
+Some claim Dapps could be the backbone of Web 3.0.
+
+# What a decentralized application is
+
+Before introducing the concept of "decentralized" maybe it's better
+to talk a bit about the meaning of "centralized"
+
+A centralized application or system is controlled by a single or
+central entity: an individual, company, institution, governamental
+agency, and so on.
+
+The user trusts the good faith of the central entity (he/it has the
+full controll of your data and the system itself)
+
+In a centrilized world users have to trust services provider, and
+unknow or less know e-commerce has many many few users because of
+trustness.
+
+In order to solve trustfulness problems decentralized applications
+do a great work.
+
+[*] Favorable transaction conditions -
+ -  This would remove one of the biggest reservation you may had
+    about an unknow e-commerce, the transaction would be completed
+    and the money would be fully transferred to the retailer
+    only when the retailer had complied with all the conditions
+    associated with the transaction, such as confirmation of
+    safe delivery.
+
+[*] Independent transaction execution and verification -
+ -  No transaction processed by third party, but from many
+    participants in the platfrom supporting the e-commerce.  The
+    mechanism that all parties would use to agree on the verification
+    of a transaction is called consensus.
+
+    The consensus mechanism would reassure you that the promised
+    transaction conditions would be enforced and verified by many
+    independent parties rather than an unknown retailer.
+
+[*] Transparency -
+ -  You'd be able to check the code processing the transa tion and
+    verify that it was observing the specified conditions before
+    transferring your money to retailer.
+
+How that could works?
+
+Each node on the network would
+- Be able to process a transaction the same way other nodes do
+- Verirify all transactions in the same way other nodes do
+- Contribute in an equal way to the outcome of a transaction
+
+This architecture would be that the processing would be decentrilized
+to a network of independent nodes rather than being centralized to
+a specific set of servers that a specific entity owns.
+
+Applications built on this architecture are known as decentralized
+applications.
+

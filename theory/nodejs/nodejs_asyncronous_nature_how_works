@@ -1,0 +1,42 @@
+███╗   ██╗ ██████╗ ██████╗ ███████╗     ██╗███████╗
+████╗  ██║██╔═══██╗██╔══██╗██╔════╝     ██║██╔════╝
+██╔██╗ ██║██║   ██║██║  ██║█████╗       ██║███████╗
+██║╚██╗██║██║   ██║██║  ██║██╔══╝  ██   ██║╚════██║
+██║ ╚████║╚██████╔╝██████╔╝███████╗╚█████╔╝███████║
+╚═╝  ╚═══╝ ╚═════╝ ╚═════╝ ╚══════╝ ╚════╝ ╚══════╝
+                                                   
+
+# Foundation of entire NodeJS platform
+
+We will go through the main concepts behind the pattern, such as
+the single-threaded architecture and the non-blocking I/O
+
+# I/O Is Slow
+
+I/O (short for input/output) is definitely the slowest among the
+fundamental operations of a computer. Accessing the RAM is in the
+order of nanoseconds (10E-9 seconds), while accessing data on the
+disk or the network is in the order of milliseconds (10E-3 seconds).
+The same applies to the bandwidth. RAM has a transfer rate consistently
+in the order of GB/s, while the disk or network varies from MB/s
+to optimistically GB/s. I/O is usually not expensive in terms of
+CPU, but it adds a delay between the moment the request is sent to
+the device and the moment the operation completes.
+
+# Blocking I/O
+
+In traditional blocking I/O programming, the function call corresponding
+to an I/O request will block the execution of the thread until the
+operation completes.
+
+    // blocks the thread until the data is available
+    data = socket.read()
+    // data is available
+    print(data)”
+
+The traditional approach to solve this problem is using multi threads,
+but this costs a lot of HW resources.
+So having a long-running thread for each connection and not using
+it for most of the time means wasting precious memory and CPU cycles.
+
+
